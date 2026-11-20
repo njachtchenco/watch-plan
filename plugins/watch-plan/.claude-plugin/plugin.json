@@ -1,0 +1,20 @@
+{
+  "name": "watch-plan",
+  "version": "1.0.0",
+  "description": "Checks every tip in a video against your real Claude Code setup and writes a short ranked plan, or drafts a skill from the video. Runs on the watch plugin (claude-video by Bradley Bonanno).",
+  "author": {
+    "name": "Nick Jachtchenco"
+  },
+  "homepage": "https://github.com/njachtchenco/watch-plan",
+  "repository": "https://github.com/njachtchenco/watch-plan",
+  "license": "MIT",
+  "keywords": [
+    "video",
+    "youtube",
+    "instagram",
+    "tiktok",
+    "skills",
+    "claude-code",
+    "planning"
+  ]
+}

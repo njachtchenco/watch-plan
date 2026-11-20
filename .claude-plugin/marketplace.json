@@ -1,0 +1,33 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "nick-jach",
+  "description": "watch-plan: turn a video into a plan for your own Claude Code setup, or into a new skill. Ships with a pointer to the /watch plugin it runs on.",
+  "owner": {
+    "name": "Nick Jachtchenco"
+  },
+  "plugins": [
+    {
+      "name": "watch-plan",
+      "description": "Checks every tip in a video against your real Claude Code setup and writes a short ranked plan, or drafts a skill from the video. Needs the watch plugin.",
+      "author": {
+        "name": "Nick Jachtchenco"
+      },
+      "source": "./plugins/watch-plan",
+      "category": "productivity",
+      "homepage": "https://github.com/njachtchenco/watch-plan"
+    },
+    {
+      "name": "watch",
+      "description": "Watch a video (YouTube, Instagram, TikTok, other links or a local file): transcript and timestamped frames. By Bradley Bonanno (claude-video), installed straight from his repo.",
+      "author": {
+        "name": "Bradley Bonanno"
+      },
+      "source": {
+        "source": "github",
+        "repo": "bradautomates/claude-video"
+      },
+      "category": "productivity",
+      "homepage": "https://github.com/bradautomates/claude-video"
+    }
+  ]
+}

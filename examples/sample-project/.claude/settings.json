@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "defaultMode": "auto",
+    "allow": [
+      "Bash(npm test)",
+      "Bash(npm run lint)"
+    ]
+  }
+}
